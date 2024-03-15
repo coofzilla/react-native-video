@@ -42,6 +42,7 @@
         "lint": "yarn eslint .",
         "build": "yarn tsc",
         "prepare": "yarn build",
+        "prepack": "yarn build",
         "xbasic": "yarn --cwd examples/basic",
         "docs": "yarn --cwd docs build",
         "release": "release-it",
